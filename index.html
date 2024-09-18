@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBox - Architecture</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="bootstrap-icons-1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand fs-2" style="color: #2947A9;" href="#">
+                <img src="asset/Random-Symboles3.png" alt="Logo" class="me-2">
+                <strong><em>The</em><span>Box</span></strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #F9995D;" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="d-flex align-items-center justify-content-center position-relative"
+        style="background: url('asset/architecture.jpg') no-repeat center center/cover; height: 80vh;">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-dark text-left">Building things<br>is our mission.</h1>
+        </div>
+        <div class="d-inline-block p-3 position-absolute text-light text-center bottom-0 end-0 m-4" 
+        style="width: 300px; max-height: 200px; background-color: #2947A9;">
+            <p><strong>Feature Projects</strong></p>
+            <p>The National University of Architecture</p>
+            <div class="d-flex justify-content-center">
+                <!-- Kotak dengan bg-dark untuk Back dan Next -->
+                <a href="#" class="bg-dark text-white text-decoration-none p-2 m-1">← Back</a>
+                <a href="#" class="bg-dark text-white text-decoration-none p-2 m-1">Next →</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Our Reputation Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Reputation</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-0 text-center shadow-sm p-4">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <img src="asset/Vector.png" alt="Vector">
+                            </div>
+                            <h5 class="card-title fw-bold">Best Services</h5>
+                            <p class="card-text">Nullam senectus porttitor in eget. Eget rutrum leo interdum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 text-center shadow-sm p-4">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <img src="asset/Vector.png" alt="Vector">
+                            </div>
+                            <h5 class="card-title fw-bold">Best Teams</h5>
+                            <p class="card-text">Cursus semper tellus volutpat aliquet lacus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 text-center shadow-sm p-4">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <img src="asset/Vector.png" alt="Vector">
+                            </div>
+                            <h5 class="card-title fw-bold">Best Designs</h5>
+                            <p class="card-text">Ultricies at ipsum nunc, tristique nam lectus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-md-6 mx-auto">
+                    <img src="asset/org.png" alt="Founder Image" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <!-- Box with dynamic content -->
+                    <div class="card w-100 h-100 text-white p-3 d-flex align-items-center justify-content-center text-wrap overflow-hidden rounded-0"
+                        style="background-color: #2947A9; max-width: 400px; max-height: 340px; transform: translateX(-67%) translateY(7%)">
+                        <div class="card-body ">
+                            <h4  class="card-title">About Us</h4>
+                            <p class="card-text">For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along
+                            the way.</p>
+                            <p class="card-text">We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when
+                            building in the U.S.</p>
+                            <a href="#" class="btn btn-light text-primary">More on Our History</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>&copy; 2024 TheBox. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
